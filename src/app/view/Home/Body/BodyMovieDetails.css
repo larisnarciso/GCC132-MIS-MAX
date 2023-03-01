@@ -1,0 +1,37 @@
+.body-details-arrow {
+    margin-right: 64px;
+}
+
+.body-details-container {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: #d1cbd1;
+    margin-top: 64px;
+}
+
+.body-details-img {
+    width: 204px;
+    height: 303px;
+}
+
+.body-details-info {
+    font-size: 15px;
+    margin-left: 32px;
+    width: 450px;
+    margin-top: 24px;
+}
+
+.body-details-plot {
+    font-size: 20px;
+    width: 450px;
+    margin-left: 32px;
+}
+
+.body-details-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 32px;
+    margin-bottom: 16px;
+    color: #f8f1f8;
+}

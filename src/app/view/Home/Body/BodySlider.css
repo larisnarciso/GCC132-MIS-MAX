@@ -1,0 +1,12 @@
+.slider-container {
+    margin: 16px 8px 16px 16px;
+}
+
+.slider-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 32px;
+    margin-left: 16px;
+}
