@@ -49,7 +49,7 @@ Para preparar o ambiente para utilização da aplicação _MISMAX_:
 Uma vez preparado o ambiente, clone este repositório e abra a pasta do projeto em sua IDE favorita.
 
 ```
-git clone https://github.com/annaflaviafl/trabalhoProvisorio.git
+git clone https://github.com/larisnarciso/GCC132-MIS-MAX.git
 ```
 
 Execute o comando abaixo para instalar as dependências do projeto:
