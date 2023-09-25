@@ -6,9 +6,9 @@ import HomePage from '../app/view/Home/HomePage';
 const App: React.FC = () => {
   const createFindMovieService = () => {
     // Utilizando Api externa para retornar os filmes
-    // return new FindMovieService(new RemoteOpenMovieRepository());
+    return new FindMovieService(new RemoteOpenMovieRepository());
     // Utilizando um repositorio fake
-    return new FindMovieService(new FakeOpenMovieRepository());
+    // return new FindMovieService(new FakeOpenMovieRepository());
   };
 
   return <HomePage service={createFindMovieService()} />;
