@@ -6,9 +6,8 @@ import { OpenMovieRepository } from '../../domain/services/protocols/openMovieRe
 class RemoteOpenMovieRepository extends OpenMovieRepository {
   //Método utilizado para retornar uma lista de filmes a partir de um termo de pesquisa
   async getAll(searchTerm: string): Promise<Movies[]> {
-    // const response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&s=${searchTerm}`);
     const response = await fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=ac7d535e&s=${searchTerm}`
+      `http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&s=${searchTerm}`
     );
     const data = await response.json();
 
@@ -21,9 +20,8 @@ class RemoteOpenMovieRepository extends OpenMovieRepository {
 
   //Método utilizado para retornar um filme a partir de seu título
   async getByTitle(title: string): Promise<Movie> {
-    // const response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&t=${title}`);
     const response = await fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=ac7d535e&t=${title}`
+      `http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&t=${title}`
     );
     const data = await response.json();
 

@@ -64,10 +64,12 @@ Busque pelo arquivo chamado `api-config.ts` no diretório `src` do projeto, cont
 
 ```ts
 export const openMovieConfig = {
-  key: "<sua-chave-de-api>",
-  URL: "https://www.omdbapi.com/",
+  key: '<sua-chave-de-api>',
+  URL: 'https://www.omdbapi.com/',
 };
 ```
+
+**Obs: Para executar a aplicação sem a utilização de uma API externa, busque pelo arquivo chamado `App.tsx` e comente a linha referente a API externa e descomente a linha de código referente ao repositorio fake.**
 
 Para executar a aplicação, digite o comando abaixo no terminal:
 
