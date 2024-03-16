@@ -2,34 +2,41 @@ import { openMovieConfig } from '../../../api-config';
 import { Movie, Movies } from '../../domain/entities';
 import { MovieNotFoundError } from '../../domain/errors/movie-not-found-error';
 import { OpenMovieRepository } from '../../domain/services/protocols/openMovieRepository';
+import { FakeOpenMovieRepository } from '../fake/fakeOpenMovieRepository';
 
 class RemoteOpenMovieRepository extends OpenMovieRepository {
-  //Método utilizado para retornar uma lista de filmes a partir de um termo de pesquisa
   async getAll(searchTerm: string): Promise<Movies[]> {
-    const response = await fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&s=${searchTerm}`
-    );
-    const data = await response.json();
+    try {
+      const response = await fetch(
+        `http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&s=${searchTerm}`
+      );
+      const data = await response.json();
 
-    if (data.Error) {
-      throw new MovieNotFoundError('Filme não encontrado');
+      if (data.Error) throw new MovieNotFoundError('Filme não encontrado');
+
+      return this.toCollection(Object.values(data).at(0) as any);
+    } catch (error) {
+      console.error('Erro ao acessar a API externa:', error);
+      // Se ocorrer um erro ao acessar a API externa, use o repositório falso como fallback
+      return new FakeOpenMovieRepository().getAll();
     }
-
-    return this.toCollection(Object.values(data).at(0) as any);
   }
 
-  //Método utilizado para retornar um filme a partir de seu título
   async getByTitle(title: string): Promise<Movie> {
-    const response = await fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&t=${title}`
-    );
-    const data = await response.json();
+    try {
+      const response = await fetch(
+        `http://www.omdbapi.com/?i=tt3896198&apikey=${openMovieConfig.key}&t=${title}`
+      );
+      const data = await response.json();
 
-    if (data.Error) {
-      throw new MovieNotFoundError('Filme não encontrado');
+      if (data.Error) throw new MovieNotFoundError('Filme não encontrado');
+
+      return this.toMovieEntity(data);
+    } catch (error) {
+      console.error('Erro ao acessar a API externa:', error);
+      // Se ocorrer um erro ao acessar a API externa, use o repositório falso como fallback
+      return new FakeOpenMovieRepository().getByTitle(title);
     }
-
-    return this.toMovieEntity(data);
   }
 
   private toMoviesEntity(data: any): Movies {
@@ -41,7 +48,6 @@ class RemoteOpenMovieRepository extends OpenMovieRepository {
     };
   }
 
-  //Método utilizado para conversão de um filme
   private toMovieEntity(data: any): Movie {
     return {
       Awards: data.Awards,
@@ -52,10 +58,10 @@ class RemoteOpenMovieRepository extends OpenMovieRepository {
       Title: data.Title,
       Type: data.Type,
       Year: data.Year,
+      Genre: data.Genre,
     };
   }
 
-  //Método utilizado para conversão de uma lista de filmes
   private toCollection(data: any[]): Movies[] {
     return data.map((dataItem) => this.toMoviesEntity(dataItem));
   }

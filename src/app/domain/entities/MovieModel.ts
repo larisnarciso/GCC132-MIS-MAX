@@ -1,8 +1,9 @@
-import { Movies } from "./MoviesModel";
+import { Movies } from './MoviesModel';
 
 export type Movie = Movies & {
-    Awards: string;
-    Director: string;
-    Plot: string;
-    Runtime: string;
+  Awards: string;
+  Director: string;
+  Genre: string;
+  Plot: string;
+  Runtime: string;
 };

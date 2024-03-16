@@ -1,0 +1,156 @@
+[
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWZkZjE2OGYtN2RiMS00ZDE5LWFlZGQtYzI1OTNhZDZkYzM3XkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_SX300.jpg",
+    "Title": "Bottoms",
+    "Type": "Comedy",
+    "Genre": "Comedy",
+    "Year": "2023",
+    "Awards": "2 wins & 24 nominations",
+    "Director": "Emma Seligman",
+    "Plot": "Two unpopular queer high-school students start a fight club to have sex before graduation.",
+    "Runtime": "91 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+    "Title": "Poor Things",
+    "Genre": "Comedy",
+    "Type": "movie",
+    "Year": "2023",
+    "Awards": "Nominated for 11 Oscars. 93 wins & 408 nominations total",
+    "Director": "Yorgos Lanthimos",
+    "Plot": "The incredible tale about the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
+    "Runtime": "141 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDExMGMyN2QtYjRkZC00Yzk1LTkzMDktMTliZTI5NjQ0NTNkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+    "Title": "Mean Girls",
+    "Genre": "Comedy, Musical",
+    "Type": "movie",
+    "Year": "2024",
+    "Awards": "2 nominations",
+    "Director": "Samantha Jayne",
+    "Plot": "Cady Heron is a hit with the Plastics, an A-list girl clique at her new school. But everything changes when she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+    "Runtime": "112 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+    "Title": "Barbie",
+    "Genre": "Adventure, Comedy, Fantasy",
+    "Type": "movie",
+    "Year": "2023",
+    "Awards": "Nominated for 8 Oscars.",
+    "Director": "Greta Gerwig",
+    "Plot": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+    "Runtime": "114 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+    "Title": "Parasite",
+    "Genre": "Drama, Thrille",
+    "Type": "movie",
+    "Year": "2019",
+    "Awards": "Won 4 Oscars. 318 wins & 275 nominations total",
+    "Director": "Bong Joon Ho",
+    "Plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "Runtime": "132 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTNhNzRlZjctZWVlMC00ODU3LWFmOTgtNDI1ZGM0N2IxY2EwXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+    "Title": "Crush",
+    "Genre": "Comedy, Romance",
+    "Type": "movie",
+    "Year": "2022",
+    "Awards": "1 win & 1 nomination",
+    "Director": "Sammi Cohen",
+    "Plot": "An aspiring young artist joins her high school track team and later discovers what real love feels like when she finds herself falling for an unexpected teammate",
+    "Runtime": "93 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Title": "Joker",
+    "Genre": "Crime, Drama, Thriller",
+    "Type": "movie",
+    "Year": "2019",
+    "Awards": "Won 2 Oscars. 121 wins & 245 nominations total",
+    "Director": "Todd Phillips",
+    "Plot": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "Runtime": "122 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Title": "Stranger Things",
+    "Genre": "Drama, Fantasy, Horror",
+    "Type": "series",
+    "Year": "2016–",
+    "Awards": "Won 6 Primetime Emmys. 70 wins & 126 nominations total",
+    "Director": "Matt Duffer, Ross Duffer",
+    "Plot": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+    "Runtime": "51 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg",
+    "Title": "The Office",
+    "Genre": "Comedy",
+    "Type": "series",
+    "Year": "2005–2013",
+    "Awards": "Won 5 Primetime Emmys. 51 wins & 195 nominations total",
+    "Director": "Greg Daniels, Ricky Gervais, Stephen Merchant",
+    "Plot": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+    "Runtime": "22 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTczZjc1NzctNmNlNy00ZWJkLThjOTUtNDkyMWMyNGYzYTgwXkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_SX300.jpg",
+    "Title": "Dickinson",
+    "Genre": "Biography, Comedy, Drama",
+    "Type": "series",
+    "Year": "2019–2021",
+    "Awards": "3 wins & 11 nominations",
+    "Director": "Alena Smith",
+    "Plot": "Set in the 19th century, it explores the constraints of society, gender and family from the perspective of rebellious young poet, Emily Dickinson.",
+    "Runtime": "30 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmMyNWExOGItMThmNi00NDFkLTk0ZmUtMGQyN2ZjODlmYmE2XkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_SX300.jpg",
+    "Title": "Orphan Black",
+    "Genre": "Drama, Sci-Fi, Thriller",
+    "Type": "series",
+    "Year": "2013–2017",
+    "Awards": "Won 1 Primetime Emmy. 69 wins & 96 nominations total",
+    "Director": "Kim Coghill, Andrew De Angelis, Jeff Detsky",
+    "Plot": "A streetwise hustler is pulled into a compelling conspiracy after witnessing the suicide of a girl who looks just like her.",
+    "Runtime": "60 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDJmODFjMzEtNTE4MS00OGViLTk4OGYtZjg3OGFhM2VlOTliXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Title": "Killing Eve",
+    "Genre": "Action, Adventure, Drama",
+    "Type": "series",
+    "Year": "2018–2022",
+    "Awards": "Won 1 Primetime Emmy. 43 wins & 168 nominations total",
+    "Director": "Phoebe Waller-Bridge",
+    "Plot": "After a series of events, the lives of a security operative and an assassin become inextricably linked.",
+    "Runtime": "42 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_SX300.jpg",
+    "Title": "The Last of Us",
+    "Genre": "Action, Adventure, Drama",
+    "Type": "series",
+    "Year": "2023-",
+    "Awards": "Won 8 Primetime Emmys. 55 wins & 132 nominations total",
+    "Director": "Neil Druckmann",
+    "Plot": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the U.S. and depend on each other for survival.",
+    "Runtime": "49 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyNGUyNWMtMWFlMy00NThiLTk3YjItMWE2MzMzNmQwZTU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Title": "Percy Jackson and the Olympians",
+    "Genre": "Action, Adventure, Famil",
+    "Type": "series",
+    "Year": "2023–",
+    "Awards": "4 nominations",
+    "Director": "Rick Riordan, Jonathan E. Steinberg",
+    "Plot": "Demigod Percy Jackson leads a quest across America to prevent a war among the Olympian gods.",
+    "Runtime": "30 min"
+  }
+]
