@@ -17,11 +17,11 @@ const SearchBar: React.FC<Props> = ({ onSubmit }) => {
     <div>
       <form onSubmit={handleSubmit}>
         <input
-          type="text"
+          type='text'
           value={searchTerm}
           onChange={(event) => setSearchTerm(event.target.value)}
-          placeholder="O que você está procurando?"
-          className="search-input"
+          placeholder='O que você está procurando?'
+          className='search-input'
         />
       </form>
     </div>
