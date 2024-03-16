@@ -1,0 +1,10 @@
+.backgrond-login {
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    rgba(13, 09, 72, 100) 21%,
+    rgba(06, 0, 21, 20) 71%
+  );
+  min-height: 100vh;
+  flex-direction: column;
+}

@@ -12,7 +12,7 @@ type Props = {
 const BodySlider: React.FC<Props> = ({ categoryVideo, Videos, onClick }) => {
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 3,

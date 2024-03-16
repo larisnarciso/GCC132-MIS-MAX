@@ -1,23 +1,27 @@
 .backgrond-home {
-    display: flex;
-    background: linear-gradient(180deg, #321550 0%, #0C0E16 100%);
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    rgba(06, 0, 21, 20) 21%,
+    rgba(13, 09, 72, 100) 71%
+  );
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 body::-webkit-scrollbar {
-    width: 0.5em;
+  width: 0.5em;
 }
 
 body::-webkit-scrollbar-track {
-    background-color: #140820;
+  background-color: #140820;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #3d1861;
+  background-color: #3d1861;
 }
 
 .body-container {
-    flex-grow: 10;
-    flex-shrink: 0;
+  flex-grow: 10;
+  flex-shrink: 01;
 }
