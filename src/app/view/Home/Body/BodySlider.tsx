@@ -24,7 +24,7 @@ const BodySlider: React.FC<Props> = ({ categoryVideo, Videos, onClick }) => {
     <div>
       {Videos && (
         <div>
-          <div className='slider-title'>{categoryVideo} Videos</div>
+          <div className='slider-title'>{categoryVideo}</div>
           <div className='slider-container'>
             <CustomSlider settings={settings}>
               {Videos.map((item) => (

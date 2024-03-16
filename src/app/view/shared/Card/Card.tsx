@@ -23,9 +23,6 @@ const Card: React.FC<Props> = ({ data, width, height, onClick }) => {
     <div className='card' onClick={handleClick}>
       <img src={data.Poster} style={{ width, height }}></img>
       <div className='title'>{data.Title}</div>
-      <div className='description'>
-        {data.Type}, {data.Year}
-      </div>
     </div>
   );
 };

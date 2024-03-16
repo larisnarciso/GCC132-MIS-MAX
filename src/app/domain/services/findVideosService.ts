@@ -4,7 +4,7 @@ import { OpenVideoRepository } from './protocols/openVideoRepository';
 class FindVideoservice {
   constructor(private readonly repo: OpenVideoRepository) {}
 
-  async getCategories(searchTerm?: string): Promise<Videos[]> {
+  async getCategories(searchTerm: string): Promise<Videos[]> {
     const categories = await this.repo.getAll(searchTerm);
     return categories;
   }
