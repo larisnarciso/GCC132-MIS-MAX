@@ -1,19 +1,19 @@
-import React from "react";
-import FindMovieService from "../../domain/services/findMoviesService";
-import BodyPage from "../Home/Body/BodyPage";
-import FooterPage from "../Home/Footer/FooterPage";
-import HeaderPage from "../Home/Header/HeaderPage";
-import "./HomePage.css";
+import React from 'react';
+import FindVideoservice from '../../domain/services/findVideosService';
+import BodyPage from '../Home/Body/BodyPage';
+import FooterPage from '../Home/Footer/FooterPage';
+import HeaderPage from '../Home/Header/HeaderPage';
+import './HomePage.css';
 
 type Props = {
-  service: FindMovieService;
+  service: FindVideoservice;
 };
 
 const HomePage: React.FC<Props> = ({ service }) => {
   return (
-    <div className="backgrond-home">
+    <div className='backgrond-home'>
       <HeaderPage />
-      <div className="body-container">
+      <div className='body-container'>
         <BodyPage service={service} />
       </div>
       <FooterPage />

@@ -1,46 +1,60 @@
 import React, { useEffect, useState } from 'react';
-import { Movie, Movies } from '../../../domain/entities';
-import FindMovieService from '../../../domain/services/findMoviesService';
+import { Video, Videos } from '../../../domain/entities';
+import FindVideoservice from '../../../domain/services/findVideosService';
 import { Loading, SearchBar, SnackbarErro } from '../../shared';
-import BodyMovieDetails from './BodyMovieDetails';
+import BodyVideoDetails from './BodyVideoDetails';
 import BodySlider from './BodySlider';
 import './BodyPage.css';
 
 type Props = {
-  service: FindMovieService;
+  service: FindVideoservice;
 };
 
 const BodyPage: React.FC<Props> = ({ service }) => {
-  const [movie, setMovie] = useState<Movie>();
-  const [comedyMovies, setComedyMovies] = useState<Movies[]>();
-  const [romanticMovies, setRomanticMovies] = useState<Movies[]>();
+  const [Video, setVideo] = useState<Video>();
+  const [seriesVideos, setseriesVideos] = useState<Videos[]>();
+  const [filmVideos, setfilmVideos] = useState<Videos[]>();
   const [errorMessage, setErrorMessage] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
-  const moviesCategory = { comedy: 'Comedy', romantic: 'Romantic' };
+  const VideosCategory = { series: 'Serie', movie: 'Movie' };
 
   //Método utilizado para setar os estados a partir da pesquisa feita no input
   const handleSearch = async (searchTerm: string) => {
     if (searchTerm) {
       try {
-        setMovie(await service.getMovie(searchTerm));
+        setVideo(await service.getVideo(searchTerm));
         setErrorMessage('');
       } catch (error) {
         if (error instanceof Error) {
-          setMovie(undefined);
+          setVideo(undefined);
           setErrorMessage(error.message);
         }
       }
     }
   };
 
-  //Método utilizado para setar conteúdo ao renderizar o componente
+  // Método utilizado para setar conteúdo ao renderizar o componente
   const handleBody = async () => {
     try {
       setIsLoading(true);
 
-      setComedyMovies(await service.getCategories(moviesCategory.comedy));
-      setRomanticMovies(await service.getCategories(moviesCategory.romantic));
+      const seriesVideosResponse = await service.getCategories(
+        VideosCategory.series
+      );
+      const filmVideosResponse = await service.getCategories(
+        VideosCategory.movie
+      );
+
+      const seriesVideosFiltered = seriesVideosResponse.filter(
+        (video) => video.Type === 'series'
+      );
+      const filmVideosFiltered = filmVideosResponse.filter(
+        (video) => video.Type === 'movie'
+      );
+
+      setseriesVideos(seriesVideosFiltered);
+      setfilmVideos(filmVideosFiltered);
       setErrorMessage('');
 
       setIsLoading(false);
@@ -66,20 +80,20 @@ const BodyPage: React.FC<Props> = ({ service }) => {
             <SearchBar onSubmit={handleSearch} />
           </div>
 
-          {movie ? (
+          {Video ? (
             <div className='body-details-container'>
-              <BodyMovieDetails movie={movie} />
+              <BodyVideoDetails Video={Video} />
             </div>
           ) : (
             <div>
               <BodySlider
-                categoryMovie={moviesCategory.romantic}
-                movies={romanticMovies}
+                categoryVideo={VideosCategory.movie}
+                Videos={filmVideos}
                 onClick={handleSearch}
               />
               <BodySlider
-                categoryMovie={moviesCategory.comedy}
-                movies={comedyMovies}
+                categoryVideo={VideosCategory.series}
+                Videos={seriesVideos}
                 onClick={handleSearch}
               />
             </div>

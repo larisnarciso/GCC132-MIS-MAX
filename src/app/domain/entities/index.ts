@@ -1,4 +1,4 @@
-import { Movie } from "./MovieModel";
-import { Movies } from "./MoviesModel";
+import { Video } from './VideoModel';
+import { Videos } from './VideosModel';
 
-export type { Movie, Movies };
+export type { Video, Videos };

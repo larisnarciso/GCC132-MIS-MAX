@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Movies } from '../../../domain/entities';
+import { Videos } from '../../../domain/entities';
 import './Card.css';
 
 type Props = {
-  data: Movies;
+  data: Videos;
   width: string;
   height: string;
   onClick?: (searchTerm: string) => void;

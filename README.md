@@ -63,7 +63,7 @@ Para criar sua propria chave de API, acesse o site https://www.omdbapi.com/, fa�
 Busque pelo arquivo chamado `api-config.ts` no diretório `src` do projeto, contendo o conteúdo abaixo (altere a propriedade `key` para a sua chave de API):
 
 ```ts
-export const openMovieConfig = {
+export const openVideoConfig = {
   key: '<sua-chave-de-api>',
   URL: 'https://www.omdbapi.com/',
 };

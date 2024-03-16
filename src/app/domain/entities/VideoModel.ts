@@ -1,6 +1,6 @@
-import { Movies } from './MoviesModel';
+import { Videos } from './VideosModel';
 
-export type Movie = Movies & {
+export type Video = Videos & {
   Awards: string;
   Director: string;
   Genre: string;
