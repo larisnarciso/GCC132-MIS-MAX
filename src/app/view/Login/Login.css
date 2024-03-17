@@ -36,7 +36,9 @@
 }
 
 .login-form-container {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .login-form {
@@ -101,4 +103,20 @@
 
 .login-button:hover {
   background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .login-container {
+    height: auto;
+  }
+
+  .login-form {
+    padding: 30px;
+  }
+
+  .input-field {
+    height: 40px;
+    padding: 8px 6px;
+    font-size: 1rem;
+  }
 }
