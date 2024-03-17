@@ -2,10 +2,6 @@
   margin-right: 64px;
 }
 
-.left-arrow {
-  cursor: pointer;
-}
-
 .body-details-container {
   display: flex;
   justify-content: center;

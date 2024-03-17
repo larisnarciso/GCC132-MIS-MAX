@@ -17,6 +17,10 @@
   margin-bottom: 32px;
 }
 
+.form {
+  padding-top: 60px;
+}
+
 .form-titulo,
 .form-paragrafo {
   text-align: center;
@@ -33,7 +37,6 @@
 
 .login-form-container {
   width: 600px;
-  margin-top: 48px; /* Moveu do .input-container */
 }
 
 .login-form {
