@@ -2,7 +2,8 @@ import FindVideoservice from './domain/services/findVideosService';
 import RemoteOpenVideoRepository from './data/remote/remoteOpenVideoRepository';
 import { FakeOpenVideoRepository } from './data/fake/fakeOpenVideoRepository';
 import HomePage from '../app/view/Home/HomePage';
-import LoginPage from '../app/view/Login/LoginPage';
+import Login from './view/Login/Login';
+import './App.css';
 
 const App: React.FC = () => {
   const createFindVideoservice = () => {

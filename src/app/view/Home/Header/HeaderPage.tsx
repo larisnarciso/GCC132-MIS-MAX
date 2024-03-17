@@ -1,18 +1,19 @@
 import React from 'react';
+import { BrowserRouter, Link } from 'react-router-dom';
 import './HeaderPage.css';
 
 const HeaderPage: React.FC = () => {
-  const handleOnClick = () => {
-    window.location.reload();
-  };
-
   return (
-    <div className='header-container' onClick={handleOnClick}>
-      <img
-        src={require('../../../../assets/logo.png')}
-        className='header-logo'
-      />
-    </div>
+    <header className='header'>
+      <nav className='nav container'>
+        <Link className='logo' to='/'>
+          <img src={require('../../../../assets/logo.png')} alt='Logo' />
+        </Link>
+        <Link className='login' to='/login'>
+          Login
+        </Link>
+      </nav>
+    </header>
   );
 };
 

@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import './FooterPage.css';
 
 const FooterPage: React.FC = () => {
-    return (
-        <div className="footer-title">
-            © 2023 MisMax, LLC. Todos os direitos reservados. MisMax é usado sob licença.
-        </div>
-    );
-}
+  return (
+    <div className='footer'>
+      © 2024 MISMax, LLC. Todos os direitos reservados.
+    </div>
+  );
+};
 
 export default FooterPage;

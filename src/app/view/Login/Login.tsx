@@ -1,8 +1,8 @@
-import './LoginBody.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Login.css';
 
-const LoginBody = () => {
-  const handleLogin = () => {};
-
+const Login: React.FC<any> = () => {
   return (
     <section className='login-container'>
       <div>
@@ -26,9 +26,9 @@ const LoginBody = () => {
               <input type='password' name='password' className='input-field' />
             </div>
             <div>
-              <button className='login-button' onClick={handleLogin}>
+              <Link className='login-button' to='/'>
                 Entrar
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -37,4 +37,4 @@ const LoginBody = () => {
   );
 };
 
-export default LoginBody;
+export default Login;

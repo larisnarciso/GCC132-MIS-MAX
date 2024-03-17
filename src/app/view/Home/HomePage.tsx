@@ -4,6 +4,8 @@ import BodyPage from '../Home/Body/BodyPage';
 import FooterPage from '../Home/Footer/FooterPage';
 import HeaderPage from '../Home/Header/HeaderPage';
 import './HomePage.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from '../Login/Login';
 
 type Props = {
   service: FindVideoservice;
@@ -11,12 +13,17 @@ type Props = {
 
 const HomePage: React.FC<Props> = ({ service }) => {
   return (
-    <div className='backgrond-home'>
-      <HeaderPage />
-      <div className='body-container'>
-        <BodyPage service={service} />
-      </div>
-      <FooterPage />
+    <div className='background'>
+      <BrowserRouter>
+        <HeaderPage />
+        <main className='background'>
+          <Routes>
+            <Route path='/login/*' element={<Login />} />
+            <Route path='/' element={<BodyPage service={service} />} />
+          </Routes>
+        </main>
+        <FooterPage />
+      </BrowserRouter>
     </div>
   );
 };
