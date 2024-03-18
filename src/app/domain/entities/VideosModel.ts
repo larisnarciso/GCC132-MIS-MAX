@@ -4,4 +4,5 @@ export type Videos = {
   Title: string;
   Type: string;
   Year: string;
+  Plot: string;
 };

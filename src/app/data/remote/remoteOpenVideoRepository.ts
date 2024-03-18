@@ -46,6 +46,7 @@ class RemoteOpenVideoRepository extends OpenVideoRepository {
       Title: data.Title,
       Type: data.Type,
       Year: data.Year,
+      Plot: data.Plot,
     };
   }
 

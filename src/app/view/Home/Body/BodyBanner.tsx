@@ -10,10 +10,18 @@ type Props = {
 
 const BodyBanner: React.FC<Props> = ({ onClick }) => {
   const [banners, setBanners] = useState<Videos[]>([]);
+  const [headerHeight, setHeaderHeight] = useState(0);
 
   useEffect(() => {
     const firstFiveBanners = bannerData.slice(0, 5);
     setBanners(firstFiveBanners);
+  }, []);
+
+  useEffect(() => {
+    const header = document.querySelector('.header');
+    if (header) {
+      setHeaderHeight(header.clientHeight);
+    }
   }, []);
 
   const settings = {
@@ -29,17 +37,13 @@ const BodyBanner: React.FC<Props> = ({ onClick }) => {
   };
 
   return (
-    <div>
+    <div className='banner-container' style={{ marginTop: -headerHeight }}>
       {banners.length > 0 && (
-        <div>
-          <div className='banner-container'>
-            <CustomSlider settings={settings}>
-              {banners.map((video) => (
-                <Banner key={video.Title} data={video} onClick={onClick} />
-              ))}
-            </CustomSlider>
-          </div>
-        </div>
+        <CustomSlider settings={settings}>
+          {banners.map((video) => (
+            <Banner key={video.Title} data={video} />
+          ))}
+        </CustomSlider>
       )}
     </div>
   );

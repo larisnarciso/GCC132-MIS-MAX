@@ -25,6 +25,7 @@ const Banner: React.FC<Props> = ({
     <div className='banner' onClick={handleClick}>
       <img src={data.Banner} style={{ width, height }} alt={data.Title} />
       <div className='title'>{data.Title}</div>
+      {/* <div className='plot'>{data.Plot}</div> */}
     </div>
   );
 };

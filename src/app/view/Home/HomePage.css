@@ -10,7 +10,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #0d0948;
 }
 
-.body-container {
+/* .body-container {
   flex-grow: 10;
   flex-shrink: 01;
-}
+} */

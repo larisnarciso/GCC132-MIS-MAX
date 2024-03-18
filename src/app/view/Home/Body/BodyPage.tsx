@@ -73,7 +73,7 @@ const BodyPage: React.FC<Props> = ({ service }) => {
   }, []);
 
   return (
-    <div className='body-container'>
+    <div>
       {isLoading ? (
         <Loading />
       ) : (
@@ -81,6 +81,7 @@ const BodyPage: React.FC<Props> = ({ service }) => {
           <div className='body-banner-container'>
             <BodyBanner onClick={handleSearch} />
           </div>
+
           <div className='body-search-container'>
             <SearchBar onSubmit={handleSearch} />
           </div>
@@ -90,7 +91,7 @@ const BodyPage: React.FC<Props> = ({ service }) => {
               <BodyVideoDetails Video={Video} />
             </div>
           ) : (
-            <div>
+            <div className='body-slider-container'>
               <BodySlider
                 categoryVideo={VideosCategory.movie}
                 Videos={filmVideos}
