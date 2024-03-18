@@ -21,7 +21,7 @@ const Card: React.FC<Props> = ({ data, width, height, onClick }) => {
 
   return (
     <div className='card' onClick={handleClick}>
-      <img src={data.Poster} style={{ width, height }}></img>
+      <img src={data.Poster} style={{ width, height }} alt={data.Title}></img>
       <div className='title'>{data.Title}</div>
     </div>
   );

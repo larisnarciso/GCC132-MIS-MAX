@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css';
 
-const Login: React.FC<any> = () => {
+const Login: React.FC = () => {
   return (
     <section className='login-container'>
       <div>

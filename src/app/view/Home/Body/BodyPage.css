@@ -1,13 +1,17 @@
 .body-container {
-    margin: 0 16px 0 16px;
+  margin: 0 16px 0 16px;
 }
 
 .body-search-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .body-details-container {
-    margin-top: 32px;
+  margin-top: 32px;
+}
+
+.body-banner-container {
+  margin-bottom: 50px;
 }

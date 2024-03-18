@@ -5,6 +5,8 @@ import { Loading, SearchBar, SnackbarErro } from '../../shared';
 import BodyVideoDetails from './BodyVideoDetails';
 import BodySlider from './BodySlider';
 import './BodyPage.css';
+import Banner from '../../shared/Banner/Banner';
+import BodyBanner from './BodyBanner';
 
 type Props = {
   service: FindVideoservice;
@@ -76,6 +78,9 @@ const BodyPage: React.FC<Props> = ({ service }) => {
         <Loading />
       ) : (
         <>
+          <div className='body-banner-container'>
+            <BodyBanner onClick={handleSearch} />
+          </div>
           <div className='body-search-container'>
             <SearchBar onSubmit={handleSearch} />
           </div>

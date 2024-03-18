@@ -1,0 +1,79 @@
+/* BodyBanner.css */
+
+.banner-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.banner-container {
+  width: 100%;
+  height: calc(100vh - 200px);
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-container .slick-slide img {
+  width: 100vw;
+  height: auto;
+  min-height: calc(100vh - 200px);
+  object-fit: cover;
+}
+
+.banner-container .slick-slider {
+  margin: 0 auto;
+}
+
+.banner-container .slick-slide {
+  outline: none;
+}
+
+.banner-container .slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-container .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.banner-container .slick-dots li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.banner-container .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  padding: 6px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  appearance: none;
+}
+
+.banner-container .slick-dots li.slick-active button,
+.banner-container .slick-dots li button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.banner-container .slick-dots li button::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-container .slick-dots li.slick-active button::before {
+  background-color: rgba(255, 255, 255, 0.9);
+}

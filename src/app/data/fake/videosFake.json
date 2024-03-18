@@ -1,17 +1,31 @@
 [
   {
-    "Poster": "https://m.media-amazon.com/images/M/MV5BZWZkZjE2OGYtN2RiMS00ZDE5LWFlZGQtYzI1OTNhZDZkYzM3XkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_SX300.jpg",
-    "Title": "Bottoms",
-    "Genre": "Comedy",
-    "Type": "movie",
-    "Year": "2023",
-    "Awards": "2 wins & 24 nominations",
-    "Director": "Emma Seligman",
-    "Plot": "Two unpopular queer high-school students start a fight club to have sex before graduation.",
-    "Runtime": "91 min"
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyNGUyNWMtMWFlMy00NThiLTk3YjItMWE2MzMzNmQwZTU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Banner": "https://www.sequoitmedia.com/wp-content/uploads/2024/02/pjo_bolt_ensemble_16x9_f523cab3.jpeg",
+    "Title": "Percy Jackson and the Olympians",
+    "Genre": "Action, Adventure, Famil",
+    "Type": "series",
+    "Year": "2023–",
+    "Awards": "4 nominations",
+    "Director": "Rick Riordan, Jonathan E. Steinberg",
+    "Plot": "Demigod Percy Jackson leads a quest across America to prevent a war among the Olympian gods.",
+    "Runtime": "30 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTczZjc1NzctNmNlNy00ZWJkLThjOTUtNDkyMWMyNGYzYTgwXkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_SX300.jpg",
+    "Banner": "https://www.apple.com/br/tv-pr/shows-and-films/d/dickinson/images/show-home-graphic-header/4x1/key-art-02/Apple_TV_Dickinson_key_art_graphic_header_4_1_show_home.jpg.og.jpg?1637109959671",
+    "Title": "Dickinson",
+    "Genre": "Biography, Comedy, Drama",
+    "Type": "series",
+    "Year": "2019–2021",
+    "Awards": "3 wins & 11 nominations",
+    "Director": "Alena Smith",
+    "Plot": "Set in the 19th century, it explores the constraints of society, gender and family from the perspective of rebellious young poet, Emily Dickinson.",
+    "Runtime": "30 min"
   },
   {
     "Poster": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/b85d489140bd6076b1f2b8323e4812328b812872b2a555c34147b8d1c48f053a.jpg",
     "Title": "Poor Things",
     "Genre": "Comedy",
     "Type": "movie",
@@ -22,40 +36,8 @@
     "Runtime": "141 min"
   },
   {
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNDExMGMyN2QtYjRkZC00Yzk1LTkzMDktMTliZTI5NjQ0NTNkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
-    "Title": "Mean Girls",
-    "Genre": "Comedy, Musical",
-    "Type": "movie",
-    "Year": "2024",
-    "Awards": "2 nominations",
-    "Director": "Samantha Jayne",
-    "Plot": "Cady Heron is a hit with the Plastics, an A-list girl clique at her new school. But everything changes when she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
-    "Runtime": "112 min"
-  },
-  {
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-    "Title": "Barbie",
-    "Genre": "Adventure, Comedy, Fantasy",
-    "Type": "movie",
-    "Year": "2023",
-    "Awards": "Nominated for 8 Oscars.",
-    "Director": "Greta Gerwig",
-    "Plot": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
-    "Runtime": "114 min"
-  },
-  {
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
-    "Title": "Parasite",
-    "Genre": "Drama, Thrille",
-    "Type": "movie",
-    "Year": "2019",
-    "Awards": "Won 4 Oscars. 318 wins & 275 nominations total",
-    "Director": "Bong Joon Ho",
-    "Plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
-    "Runtime": "132 min"
-  },
-  {
     "Poster": "https://m.media-amazon.com/images/M/MV5BOTNhNzRlZjctZWVlMC00ODU3LWFmOTgtNDI1ZGM0N2IxY2EwXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+    "Banner": "https://press.hulu.com/app/uploads/2022/04/crush-press-art-1920x1080-tile.jpg",
     "Title": "Crush",
     "Genre": "Comedy, Romance",
     "Type": "movie",
@@ -66,7 +48,44 @@
     "Runtime": "93 min"
   },
   {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDExMGMyN2QtYjRkZC00Yzk1LTkzMDktMTliZTI5NjQ0NTNkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/cc1f7224ca1f193b15cc044a861121ce59dae9461f5186d4428b600c83fda174._UR1920,1080_.jpg",
+    "Title": "Mean Girls",
+    "Genre": "Comedy, Musical",
+    "Type": "movie",
+    "Year": "2024",
+    "Awards": "2 nominations",
+    "Director": "Samantha Jayne",
+    "Plot": "Cady Heron is a hit with the Plastics, an A-list girl clique at her new school. But everything changes when she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+    "Runtime": "112 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/dd1d21a2e4a285e2dbac2dccc0594a308ce650e0a94272c37914e0df66aca307.jpg",
+    "Title": "Parasite",
+    "Genre": "Drama, Thrille",
+    "Type": "movie",
+    "Year": "2019",
+    "Awards": "Won 4 Oscars. 318 wins & 275 nominations total",
+    "Director": "Bong Joon Ho",
+    "Plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "Runtime": "132 min"
+  },
+  {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWZkZjE2OGYtN2RiMS00ZDE5LWFlZGQtYzI1OTNhZDZkYzM3XkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/3c98856c96698bf3c97189775152921ea9b1b9c21c3ae218547426602f9c5f4b.jpg",
+    "Title": "Bottoms",
+    "Genre": "Comedy",
+    "Type": "movie",
+    "Year": "2023",
+    "Awards": "2 wins & 24 nominations",
+    "Director": "Emma Seligman",
+    "Plot": "Two unpopular queer high-school students start a fight club to have sex before graduation.",
+    "Runtime": "91 min"
+  },
+  {
     "Poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/97da6d6bc6641ade91c5510f6539d10c46f3dbc367ba03718eb4db08ff968e3f.jpg",
     "Title": "Joker",
     "Genre": "Crime, Drama, Thriller",
     "Type": "movie",
@@ -78,6 +97,7 @@
   },
   {
     "Poster": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Banner": "https://cxisto.files.wordpress.com/2017/12/strangerthiungs.jpg",
     "Title": "Stranger Things",
     "Genre": "Drama, Fantasy, Horror",
     "Type": "series",
@@ -88,7 +108,20 @@
     "Runtime": "51 min"
   },
   {
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+    "Banner": "https://www.thebanner.org/sites/default/files/styles/article_detail_header/public/2023-08/MM-1197%20Barbie.jpg?itok=ETezpk0b",
+    "Title": "Barbie",
+    "Genre": "Adventure, Comedy, Fantasy",
+    "Type": "movie",
+    "Year": "2023",
+    "Awards": "Nominated for 8 Oscars.",
+    "Director": "Greta Gerwig",
+    "Plot": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+    "Runtime": "114 min"
+  },
+  {
     "Poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/199f8b7160986c7c00f4b112f91a9db7340fc463e49c0a3634988bd473de7adf.jpg",
     "Title": "The Office",
     "Genre": "Comedy",
     "Type": "series",
@@ -99,18 +132,8 @@
     "Runtime": "22 min"
   },
   {
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTczZjc1NzctNmNlNy00ZWJkLThjOTUtNDkyMWMyNGYzYTgwXkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_SX300.jpg",
-    "Title": "Dickinson",
-    "Genre": "Biography, Comedy, Drama",
-    "Type": "series",
-    "Year": "2019–2021",
-    "Awards": "3 wins & 11 nominations",
-    "Director": "Alena Smith",
-    "Plot": "Set in the 19th century, it explores the constraints of society, gender and family from the perspective of rebellious young poet, Emily Dickinson.",
-    "Runtime": "30 min"
-  },
-  {
     "Poster": "https://m.media-amazon.com/images/M/MV5BYmMyNWExOGItMThmNi00NDFkLTk0ZmUtMGQyN2ZjODlmYmE2XkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/4e04307d58a061a1e44b7d716146cffa1f0b332ce399fe332c4f0872ab3bc671.jpg",
     "Title": "Orphan Black",
     "Genre": "Drama, Sci-Fi, Thriller",
     "Type": "series",
@@ -122,6 +145,7 @@
   },
   {
     "Poster": "https://m.media-amazon.com/images/M/MV5BZDJmODFjMzEtNTE4MS00OGViLTk4OGYtZjg3OGFhM2VlOTliXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/ffee0a7603f50673517735aeeb73c9598099e94bd7c293a587f33e158f33299a.jpg",
     "Title": "Killing Eve",
     "Genre": "Action, Adventure, Drama",
     "Type": "series",
@@ -133,6 +157,7 @@
   },
   {
     "Poster": "https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_SX300.jpg",
+    "Banner": "https://m.media-amazon.com/images/S/pv-target-images/a127bc7923be7551523336fa271cd8b2e9c8c8460bceace4158ec938ea5e3b7e._SX1080_FMjpg_.jpg",
     "Title": "The Last of Us",
     "Genre": "Action, Adventure, Drama",
     "Type": "series",
@@ -141,16 +166,5 @@
     "Director": "Neil Druckmann",
     "Plot": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the U.S. and depend on each other for survival.",
     "Runtime": "49 min"
-  },
-  {
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyNGUyNWMtMWFlMy00NThiLTk3YjItMWE2MzMzNmQwZTU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-    "Title": "Percy Jackson and the Olympians",
-    "Genre": "Action, Adventure, Famil",
-    "Type": "series",
-    "Year": "2023–",
-    "Awards": "4 nominations",
-    "Director": "Rick Riordan, Jonathan E. Steinberg",
-    "Plot": "Demigod Percy Jackson leads a quest across America to prevent a war among the Olympian gods.",
-    "Runtime": "30 min"
   }
 ]

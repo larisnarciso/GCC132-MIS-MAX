@@ -41,6 +41,7 @@ class RemoteOpenVideoRepository extends OpenVideoRepository {
 
   private toVideosEntity(data: any): Videos {
     return {
+      Banner: data.Banner,
       Poster: data.Poster,
       Title: data.Title,
       Type: data.Type,
@@ -59,6 +60,7 @@ class RemoteOpenVideoRepository extends OpenVideoRepository {
       Type: data.Type,
       Year: data.Year,
       Genre: data.Genre,
+      Banner: data.Banner,
     };
   }
 
