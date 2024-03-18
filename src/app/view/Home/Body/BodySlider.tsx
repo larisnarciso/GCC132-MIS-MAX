@@ -14,10 +14,47 @@ const BodySlider: React.FC<Props> = ({ categoryVideo, Videos, onClick }) => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 3,
+    slidesToShow: 8,
+    slidesToScroll: 4,
     nextArrow: <></>,
     prevArrow: <></>,
+    responsive: [
+      {
+        breakpoint: 1600, // telas maiores
+        settings: {
+          slidesToShow: 7,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 1366, // laptops
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 1024, // tablet horizontal
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 768, // tablet vertical
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480, // celular
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
