@@ -3,7 +3,7 @@ img {
 }
 
 .title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: #fcebfc;
   width: 204px;
@@ -18,9 +18,16 @@ img {
 }
 
 .card {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--type-first);
 }
 
 .card:hover {
   transform: scale(1.01);
+}
+
+.card .title {
+  font-size: 0.875rem;
+  font-weight: bold;
+  max-width: 300px;
+  text-align: center;
 }

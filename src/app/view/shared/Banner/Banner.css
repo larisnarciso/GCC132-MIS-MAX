@@ -3,13 +3,6 @@
   overflow: hidden;
 }
 
-.title {
-  font-size: 1rem;
-  font-weight: bold;
-  max-width: 300px;
-  text-align: center;
-}
-
 .banner-details {
   position: absolute;
   bottom: 60px;

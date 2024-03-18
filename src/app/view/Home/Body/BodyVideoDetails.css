@@ -5,7 +5,7 @@
 .body-details-container {
   display: flex;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--type-first);
   color: #d1cbd1;
   height: 100vh;
   padding: 20px;
