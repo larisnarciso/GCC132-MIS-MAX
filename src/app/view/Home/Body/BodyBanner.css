@@ -1,11 +1,4 @@
 /* BodyBanner.css */
-
-.banner-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 16px;
-}
-
 .banner-container {
   width: 100%;
   height: calc(100vh - 100px);
@@ -17,7 +10,7 @@
 .banner-container::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   left: 0;
   width: 100%;
   height: 120px;
@@ -28,7 +21,7 @@
     rgba(0, 0, 0, 0.5) 75%,
     rgba(0, 0, 0, 0.55) 100%
   );
-  z-index: 0;
+  z-index: 5;
 }
 
 .banner-container .slick-slider {
@@ -44,7 +37,7 @@
   bottom: 70px;
   width: 100%;
   text-align: center;
-  z-index: 20;
+  z-index: 10;
 }
 
 .banner-container .slick-dots li {
