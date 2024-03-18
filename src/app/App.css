@@ -52,7 +52,8 @@ a {
 }
 
 .container {
-  max-width: 115rem;
+  width: 100%;
+  max-width: 113rem;
   padding: 0 1rem;
   margin: 0 auto;
 }
