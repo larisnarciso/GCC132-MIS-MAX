@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CustomSlider, SearchBar, SnackbarErro } from '../../shared';
+import { Card, CustomSlider } from '../../shared';
 import { Videos } from '../../../domain/entities';
 import './BodySlider.css';
 
