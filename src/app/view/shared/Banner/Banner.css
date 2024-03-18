@@ -1,26 +1,22 @@
 .banner {
   position: relative;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
 }
 
-.banner img {
-  width: 100%;
-  height: auto;
-  display: block;
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  max-width: 300px;
+  text-align: center;
 }
 
-.banner .title {
+.banner-details {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 60px;
+  left: 30px;
   right: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  max-width: calc(33% - 20px);
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
   padding: 8px;
-  border-radius: 8px 8px 0px 0px;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
 }

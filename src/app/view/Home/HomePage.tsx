@@ -16,8 +16,8 @@ const HomePage: React.FC<Props> = ({ service }) => {
     <div className='background'>
       <BrowserRouter>
         <HeaderPage />
-        <main className='background'>
-          <div className='margin'>
+        <main>
+          <div className='margin '>
             <Routes>
               <Route path='/login/*' element={<Login />} />
               <Route path='/' element={<BodyPage service={service} />} />

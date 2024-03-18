@@ -77,7 +77,7 @@ const BodyPage: React.FC<Props> = ({ service }) => {
       {isLoading ? (
         <Loading />
       ) : (
-        <>
+        <section className='background'>
           <div className='body-banner-container'>
             <BodyBanner onClick={handleSearch} />
           </div>
@@ -104,7 +104,7 @@ const BodyPage: React.FC<Props> = ({ service }) => {
               />
             </div>
           )}
-        </>
+        </section>
       )}
 
       {errorMessage && <SnackbarErro message={errorMessage} />}
