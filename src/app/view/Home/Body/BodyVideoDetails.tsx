@@ -17,7 +17,7 @@ const BodyVideoDetails: React.FC<Props> = ({ Video }) => {
       <div className='body-details-arrow'>
         <LeftArrow onClick={() => handleOnClick()} />
       </div>
-      <img src={Video.Poster} className='body-details-img' />
+      <img src={Video.Poster} className='body-details-img' alt={Video.Title} />
       <div>
         <div className='body-details-title'>{Video.Title}</div>
         <div className='body-details-plot'>{Video.Plot}</div>

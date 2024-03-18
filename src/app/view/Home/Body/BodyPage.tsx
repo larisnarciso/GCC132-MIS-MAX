@@ -1,3 +1,5 @@
+// Em BodyPage.tsx
+
 import React, { useEffect, useState } from 'react';
 import { Video, Videos } from '../../../domain/entities';
 import FindVideoservice from '../../../domain/services/findVideosService';
@@ -5,7 +7,6 @@ import { Loading, SearchBar, SnackbarErro } from '../../shared';
 import BodyVideoDetails from './BodyVideoDetails';
 import BodySlider from './BodySlider';
 import './BodyPage.css';
-import Banner from '../../shared/Banner/Banner';
 import BodyBanner from './BodyBanner';
 
 type Props = {
@@ -13,15 +14,14 @@ type Props = {
 };
 
 const BodyPage: React.FC<Props> = ({ service }) => {
-  const [Video, setVideo] = useState<Video>();
-  const [seriesVideos, setseriesVideos] = useState<Videos[]>();
-  const [filmVideos, setfilmVideos] = useState<Videos[]>();
+  const [video, setVideo] = useState<Video>();
+  const [seriesVideos, setSeriesVideos] = useState<Videos[]>();
+  const [filmVideos, setFilmVideos] = useState<Videos[]>();
   const [errorMessage, setErrorMessage] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const VideosCategory = { series: 'Serie', movie: 'Movie' };
 
-  //Método utilizado para setar os estados a partir da pesquisa feita no input
   const handleSearch = async (searchTerm: string) => {
     if (searchTerm) {
       try {
@@ -36,7 +36,6 @@ const BodyPage: React.FC<Props> = ({ service }) => {
     }
   };
 
-  // Método utilizado para setar conteúdo ao renderizar o componente
   const handleBody = async () => {
     try {
       setIsLoading(true);
@@ -55,8 +54,8 @@ const BodyPage: React.FC<Props> = ({ service }) => {
         (video) => video.Type === 'movie'
       );
 
-      setseriesVideos(seriesVideosFiltered);
-      setfilmVideos(filmVideosFiltered);
+      setSeriesVideos(seriesVideosFiltered);
+      setFilmVideos(filmVideosFiltered);
       setErrorMessage('');
 
       setIsLoading(false);
@@ -78,17 +77,19 @@ const BodyPage: React.FC<Props> = ({ service }) => {
         <Loading />
       ) : (
         <section className='background'>
-          <div className='body-banner-container'>
-            <BodyBanner onClick={handleSearch} />
-          </div>
+          {!video && (
+            <div className='body-banner-container'>
+              <BodyBanner onClick={handleSearch} />
+            </div>
+          )}
 
           <div className='body-search-container'>
             <SearchBar onSubmit={handleSearch} />
           </div>
 
-          {Video ? (
+          {video ? (
             <div className='body-details-container'>
-              <BodyVideoDetails Video={Video} />
+              <BodyVideoDetails Video={video} />
             </div>
           ) : (
             <div className='body-slider-container'>
