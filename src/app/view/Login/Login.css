@@ -2,18 +2,15 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: auto;
+  height: calc(100vh - (80px + 60px));
   width: 100%;
-  font-family: var(--type-first);
-  color: white;
-  margin-bottom: 12px;
 }
 
 .login-titulo {
   text-align: center;
   font-size: 2.25rem;
   line-height: 48px;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 32px;
 }
 
@@ -74,7 +71,7 @@
 }
 
 .input-container {
-  margin-top: 48px; /* Movido do .login-form-container */
+  margin-top: 48px;
 }
 
 .input-container label {

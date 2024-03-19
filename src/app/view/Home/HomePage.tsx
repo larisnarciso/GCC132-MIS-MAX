@@ -17,14 +17,14 @@ const HomePage: React.FC<Props> = ({ service }) => {
       <BrowserRouter>
         <HeaderPage />
         <main>
-          <div className='margin '>
+          <div className='home-page-container'>
             <Routes>
               <Route path='/login/*' element={<Login />} />
               <Route path='/' element={<BodyPage service={service} />} />
             </Routes>
           </div>
+          <FooterPage />
         </main>
-        <FooterPage />
       </BrowserRouter>
     </div>
   );

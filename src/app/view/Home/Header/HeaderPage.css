@@ -10,6 +10,13 @@
   height: 120px;
   position: sticky;
   z-index: 298;
+  transition: height 0.2s ease;
+}
+
+.header.scrolled {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2px);
 }
 
 .nav {
